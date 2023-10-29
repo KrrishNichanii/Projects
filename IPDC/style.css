@@ -1,0 +1,160 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style-type:  none;
+    box-sizing: border-box;
+}
+li a:hover{
+   color:blue;
+}
+body{
+    background-image:url('back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    margin-top:0.75rem;
+}
+
+.top-mid{
+    display: flex;
+    width:50%;
+    justify-content:space-around;
+    align-items:center;
+    font-size:large;
+}
+.top-mid a{
+    color:black;
+}
+
+.search{
+    width:10%;
+    display:flex;
+    gap:1rem;
+    align-items:center;
+}
+.search button{
+    height:50%;
+    width:5rem;
+    padding:2px 0px;
+}
+.search img{
+    height:50%;
+}
+.main{
+    display:flex;
+    align-items:center;
+}
+
+.right-mid{
+    position:relative;
+    left:12.85rem;
+}
+
+.left-mid{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    position:relative;
+    left:7rem;
+    bottom: 1.5rem;
+    height:90%;
+}
+.left-mid h3{
+    font-size:65px;
+}
+
+.left-mid p{
+    font-size:25px;
+    padding-top:10px;
+}
+
+.btn{
+    width:100%;
+    display:flex;
+    gap:20px;
+}
+.btn button{
+    padding:10px 15px;
+}
+
+.loan-calc{
+    border-radius:5px;
+    border:1px solid rgb(255, 28, 115);
+    color:rgb(255, 28, 115);
+    background-color:white;
+    font-weight:600;
+}
+.loan-calc:hover{
+    background-color: rgb(255, 28, 115);
+    color:white;
+    cursor:pointer;
+}
+.b{
+    background-color:rgb(255, 28, 115);
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-weight:600;
+    box-sizing: border-box;
+}
+.b:hover{
+    color:rgb(255, 28, 115);
+    background-color: white;
+    cursor:pointer;
+    border:1px solid rgb(255, 28, 115);
+
+}
+
+.logos{
+    width:100%;
+    display:flex;
+    gap:1rem;
+    position:relative;
+    top:5rem;
+}
+.logos span{
+    font-size: 20px;
+}
+
+.logos a:hover{
+    transform:scale(1.5);
+    transition-duration: 0.75s;
+
+}
+.loans{
+    position:absolute;
+    left:6rem;
+    height:35%;
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    margin-top:10px;
+    justify-content: space-between;
+}
+.house-loan{
+    align-self:flex-end;
+}
+
+.loan{
+    border-radius:20px;
+    padding:5px 10px;
+    display: flex;
+    gap:13px;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    width:20%;
+}
+.loans button{
+    box-shadow:5px 5px 20px black;
+}
+.loans button:hover{
+    box-shadow:5px 5px 5px black;
+}
