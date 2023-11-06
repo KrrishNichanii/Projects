@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+
+.container{
+    display:flex;
+    margin:20px 20px;
+    width:60%;
+   
+}
+body{
+    display:flex;
+    justify-content: center;
+}
+
+.blue-part{
+    background-color:#5371FF;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    color:white;
+}
+
+.left{
+    width:30%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.blue-part img{
+    border-radius: 50%;
+    height:50%;
+    width:50%;
+    border:2px solid black;
+}
+
+.icons{
+    margin-bottom: 1rem;;
+}
+.icons span{
+    padding-right:1rem;
+}
+.icons span i{
+   
+    padding-right:0.35rem;
+}
+.icons span a{
+    font-size:smaller;
+}
+
+.black-part{
+    background-color: #3C4240;
+    padding:10px 30px;
+    color:white;
+}
+
+.horizontal-line{
+    background-color:white;
+    height:2px;
+    width:100%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3rem 1rem;
+    gap: 1rem;
+}
+
+.contact{
+    padding-top:1.5rem ;
+}
+
+.det{
+    color:#7C7871;
+    font-weight:200;
+}
+.blue-horizontal-line{
+    background-color: #2974CD;
+    height:4px;
+    border-radius: 2px;
+    border-right:2rem solid white;
+}
+
+.s .b4{
+    border-right:9rem solid white;
+}
+
+.skill-list{
+    margin: 2.5rem 1rem;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.s p{
+     margin-bottom:0.75rem;
+}
+
+.s .b1{
+    border-right:6rem solid white;
+}
+
+.s .b3{
+    border-right:3rem solid white;
+}
+
+.certi-list{
+    padding:1rem 0rem;
+    margin:0rem 1rem;
+    text-align: center;
+    width:65%;
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+}
+.certificates{
+    margin-bottom:1rem;
+}
+
+.right h1{
+    color:#5371FF;
+}
+
+
+.black-horizontal-line{
+    height:3px;
+    background-color:black;
+    border-radius:10px;
+}
+
+.right{
+    margin-left:3rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width:65%;
+    display:flex;
+    flex-direction:column;
+    gap:1.1rem;
+}
+
+.right p{
+    color:#7C7871;
+    margin-top:1rem;
+    line-height: 1.3rem;;
+}
+.role{
+    
+}
+.role h3{
+   display:inline;
+}
+.from{
+    float:right;
+}
+.comp{
+    /* margin-top:0.5rem; */
+    position:relative;
+    top:0.5rem;
+}
+
+.R{
+    display:flex;
+    margin-top:1rem;
+    gap:1.3rem;
+}
+
+.arrow i{
+    padding-top:0.75rem;
+}
+
+.role p{
+    line-height:1.5rem;
+}
